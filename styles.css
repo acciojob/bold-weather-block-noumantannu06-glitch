@@ -8,11 +8,12 @@
         }
         
         .selected-location {
-            font-family: 'Roboto', sans-serif;
-            font-size: 25px;
-            font-weight: 600;
-            color: white;
-            margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;  /* ← ADD , sans-serif fallback */
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 30px;
+}
         }
         
         .weather-block {
