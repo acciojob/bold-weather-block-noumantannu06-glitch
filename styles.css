@@ -1,1 +1,45 @@
 /*  your css code here. If applicable */
+ body {
+            background: linear-gradient(#b96fa1, #5a3f8c);
+            margin: 0;
+            padding: 40px;
+            font-family: Arial, sans-serif;
+            min-height: 100vh;
+        }
+        
+        .selected-location {
+            font-family: 'Roboto', sans-serif;
+            font-size: 25px;
+            font-weight: 600;
+            color: white;
+            margin-bottom: 30px;
+        }
+        
+        .weather-block {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        
+        @media (min-width: 900px) {
+            .weather-block {
+                flex-direction: row;
+            }
+        }
+        
+        .weather-item {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            color: white;
+            text-align: center;
+        }
+        
+        .item-temp {
+            font-size: 24px;
+            margin: 10px 0;
+        }
+        
+        .item-temp-number1 {
+            font-weight: 600;
+        }
